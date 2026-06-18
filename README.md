@@ -62,25 +62,36 @@ FireNotes/
 ## 📸 Screenshots
 
 Add screenshots inside:
+<table>
+<tr>
+<td align="center">
+<img src="screenshots/login_screen.PNG" width="220"/><br>
+<b>Login Screen</b>
+</td>
 
-* Login Screen
-![App Screenshots](screenshots/login_screen.PNG)
+<td align="center">
+<img src="screenshots/Registration.jpg" width="220"/><br>
+<b>Registration Screen</b>
+</td>
 
+<td align="center">
+<img src="screenshots/NotesDashboard.png" width="220"/><br>
+<b>Notes Dashboard</b>
+</td>
+</tr>
 
-* Registration Screen
-![App Screenshots](screenshots/Registration.jpg)
+<tr>
+<td align="center">
+<img src="screenshots/CreateNotes.jpg" width="220"/><br>
+<b>Create Note</b>
+</td>
 
-
-* Notes Dashboard
-![App Screenshots](screenshots/NotesDashboard.png)
-
-
-* Create Note Screen
-![App Screenshots](screenshots/CreateNotes.jpg)
-
-
-* Speech Recognition Feature
-![App Screenshots](screenshots/SpeechRecognition.jpg)
+<td align="center">
+<img src="screenshots/SpeechRecognition.jpg" width="220"/><br>
+<b>Speech Recognition</b>
+</td>
+</tr>
+</table>
 
 ---
 

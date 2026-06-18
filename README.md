@@ -61,7 +61,6 @@ FireNotes/
 
 ## 📸 Screenshots
 
-Add screenshots inside:
 <table>
 <tr>
 <td align="center">

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="25dp"
+    android:paddingTop="25dp"
+    tools:context=".NoteDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/title_bar_layout">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:background="@color/white"
+            android:src="@drawable/back_btn"
+            android:hapticFeedbackEnabled="true"
+            app:tint="@color/my_primary" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:paddingRight="40dp"
+            android:id="@+id/delete_btn"
+            android:src="@drawable/delete_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:tint="@color/my_primary"
+            android:allowClickWhenDisabled="false"
+            android:hapticFeedbackEnabled="true"
+            android:background="@color/white" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:id="@+id/save_note_btn"
+            android:src="@drawable/save_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:tint="@color/my_primary"
+            android:allowClickWhenDisabled="false"
+            android:hapticFeedbackEnabled="true"
+            android:background="@color/white" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_bar_layout"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/notes_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:fontFamily="@font/nunitosemi"
+            android:hint="Title"
+            android:maxLength="50"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tagsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/date_time_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/grey"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/notes_content_text"
+            android:layout_width="match_parent"
+            android:layout_height="339dp"
+            android:layout_marginTop="24dp"
+            android:background="@null"
+            android:fontFamily="@font/nunito"
+            android:gravity="top"
+            android:hint="Your notes goes here ..."
+            android:minLines="35"
+            android:paddingBottom="20dp"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null"
+            android:textSize="14dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="80dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="70dp"
+            android:contentDescription="@string/record_audio"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:srcCompat="@drawable/mic" />
+
+        <!--        <com.google.android.material.chip.Chip-->
+        <!--            android:id="@+id/myChip"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Example Chip"-->
+        <!--            app:chipIcon="@drawable/ic_info"-->
+        <!--            app:closeIconVisible="true"-->
+        <!--            style="@style/Widget.MaterialComponents.Chip.Action" />-->
+
+        <!--        <com.google.android.material.chip.ChipGroup-->
+        <!--            android:id="@+id/chipGroup"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content">-->
+        <!--            <com.google.android.material.chip.Chip-->
+        <!--                android:id="@+id/chip"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:text="Filter 1"-->
+        <!--                style="@style/Widget.MaterialComponents.Chip.Filter" >-->
+        <!--            </com.google.android.material.chip.Chip>-->
+        <!--        </com.google.android.material.chip.ChipGroup>-->
+
+
+    </LinearLayout>
+
+</RelativeLayout>

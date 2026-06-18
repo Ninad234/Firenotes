@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:hapticFeedbackEnabled="true"
+    android:background="@drawable/note_display_container_list">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:text="Note Title"
+        android:id="@+id/note_title_textview"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:fontFamily="@font/nunitobold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note content which can be long like brrrrrrrr"
+        android:layout_marginHorizontal="22dp"
+        android:id="@+id/note_content_textview"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/greytwo"
+        android:textSize="14dp"
+        android:fontFamily="@font/nunitosemi"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="22dp"
+        android:text="Wed, 16 Oct | 28:16 AM"
+        android:id="@+id/note_time_textview"
+        android:ellipsize="end"
+        android:textColor="@color/darkgrey"
+        android:textSize="12sp"
+        android:fontFamily="@font/nunitobold"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

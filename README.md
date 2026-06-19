@@ -2,10 +2,9 @@
 
 A modern Android note-taking application built with Java and Firebase Cloud Firestore. FireNotes allows users to securely create, manage, organize, and synchronize notes in real-time. The application also includes Speech-to-Text note creation and a Tagging System for improved productivity and note organization.
 
-![Platform](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Language](https://img.shields.io/badge/Language-Java-orange)
-![Database](https://img.shields.io/badge/Database-Firebase-blue)
-![Status](https://img.shields.io/badge/Status-Active-success)
+![Platform](https://img.shields.io/badge/android-000000?style=for-the-badge&logo=android&logoColor=white)
+![Language](https://img.shields.io/badge/Java-ffffff?style=for-the-badge&logo=openjdk&logoColor=black)
+![Database](https://img.shields.io/badge/Firebase-000000?style=for-the-badge&logo=firebase&logoColor=white)
 
 ---
 
